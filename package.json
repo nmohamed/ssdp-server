@@ -1,0 +1,18 @@
+{
+  "name": "ssdp-handler",
+  "version": "1.0.0",
+  "description": "ssdp-handler",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ip": "^1.1.2",
+    "node-ssdp": "^2.7.0",
+    "node-upnp-ssdp": "^0.1.1",
+    "peer-ssdp": "0.0.5"
+  }
+}
