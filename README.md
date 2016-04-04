@@ -8,6 +8,11 @@ Implement a simple ssdp server handler which should run on a linux machine. This
 
 3. Test with SSDPTester
 
+#Pre-install
+
+Install node and npm:
+`sudo apt-get install nodejs nodejs-dev npm`
+
 #Running:
 
 Initialize:

@@ -1,11 +1,10 @@
 var ip = require('ip').address();
 var SSDP = require('node-ssdp').Server
   , server = new SSDP({
-	location: 'http://' + ip + '/desc.html'
+	location: 'http://' + ip + '/remote'
   });
 
-server.addUSN('upnp:rootdevice');
-server.addUSN('urn:schemas-upnp-org:device:YourDevice:1');
+server.addUSN('upnp:meural-frame');
 
 server.on('advertise-alive', function (headers) {
 		console.log('\nadvertise-alive', headers); // see alive messages

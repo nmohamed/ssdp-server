@@ -12,6 +12,6 @@ client.on('response', function inResponse(headers, code, rinfo) {
 
 // Or maybe if you want to scour for everything
 setInterval(function() {
-  client.search('ssdp:all')
+  client.search('upnp:meural-frame')
   // client.search('urn:schemas-upnp-org:device:YourDevice:1');
-}, 10000); //10 sec
+}, 5000); //10 sec
